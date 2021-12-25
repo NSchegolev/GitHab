@@ -1,3 +1,53 @@
 body{
-    color: blue;
+    font-variant:initial;
+    color: green;
+    height: 100%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font-size: 40px;
+    font-family:Arial;
+    background-image: url(./Image\ from\ million-wallpapers.ru\ 1920x1080.jpg);
+}
+
+h1{
+    margin: 30px 30px;
+}
+
+a{
+    color: black;
+    font-size: 30px;
+    margin:20px 20px;
+}
+
+b{
+    color: black;
+    font-size: 30px;
+    margin:20px 20px;
+}
+
+a :hover
+{
+    color: gold;
+}
+
+img
+{
+    padding-top: 100px;
+}
+
+ .content
+{
+    padding: 100px, 0px;
+    text-align: center;
+}
+
+div
+{
+    font-variant:initial;
+    color: green;
+    height: 100%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font-size: 40px;
+    text-align: center;
 }
