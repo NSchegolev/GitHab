@@ -1,25 +1,21 @@
-
 body{
-    font-variant:initial;
-    color: peachpuff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
     height: 100%;
-    padding: 10px 10px;
-    margin: 10px 10px;
-    font-size: 40px;
-    font-family:Arial;
-    background-image: url(./Image\ from\ million-wallpapers.ru\ 1920x1080.jpg);
-    background-repeat: no-repeat;
 }
-
+  
 h1
 {
-    margin: 40px 30px;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 a{
-    color: peachpuff;
-    font-size: 30px;
-    margin:20px 20px;
+    text-decoration: underline;
 }
 
 b{
@@ -28,22 +24,62 @@ b{
     margin:20px 20px;
 }
 
-a :hover
-{
-    color: peachpuff;
-}
+body {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 30px;
+    background-color: #313030;
+  }
 
- .content
-{
-    padding: 100px, 0px;
-    text-align: center;
-}
+  a {
+    color: #ae9e70;
+  }   
+
+  
 
 div
 {
     font-variant:initial;
-    height: 100%;
+    height: 50%;
     padding: 10px 10px;
     margin: 10px 10px;
     text-align: center;
 }
+
+.social-links__list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .social-links__link {
+    position: relative;
+  }
+  
+  .social-links__item {
+    margin-left: 10px;
+  }
+  
+  .social-links__icon {
+    width: 29px;
+    height: 400px;
+    fill: #5c5c5c;
+  
+    transition: 0.5s;
+  }
+  
+  .icon-twitter:hover {
+    fill: #299cfe;
+  } 
+  
+  
+  .icon-instagram--gradient {
+    position: absolute;
+    z-index: 1;
+  top: 0px;
+  right: 0px;
+    left: 0px;
+  }
+  
+  .icon-instagram--gradient:hover {
+    opacity: 1;
+  }
